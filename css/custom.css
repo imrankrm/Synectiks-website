@@ -212,75 +212,17 @@
     }
 }
 
-/* .menu-sub-container:first-of-type{
- width: 70rem;
-} */
-
-ul.nav li:nth-child(7) a{
-    display: none;
-}
-
 /*************************/
 /*******CONTACT********/
 /*********************/
 
 #wrap {
-    /* border: 10px dashed #00C2E5; */
-    box-shadow: 1px 2px 6px #ccc;
+    border: 10px dashed #00C2E5;
     padding: 40px 16px 12px 16px;
     margin-bottom: 3em;
-    margin-left: auto;
-    width: 78.2vw;
-    margin-top: -10%;
-    z-index: 9;
-    position: relative;
-    background-color: #fff;
-    margin-right: auto;
+    margin-left: 0px;
 }
 
-.contact-heading {
-    background-color: #007CC2;
-    text-align: left;
-    color: white;
-    padding: 2rem 4rem;
-    width: 78.2vw;
-    margin-left: -31px !important;
-}
-
-
-#first_name, #last_name,#email,#company,#city,#state {
-    border-bottom: 1px solid #007CC2;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-radius: 0px;
-}
-#company{
-    /*margin-top: -26px;*/
-}
-#description{
-    width:68rem !important;
-    margin: 0 auto;
-    height: 16rem;
-    border: 1px solid #007CC2 !important;
-
-}
-.contact-box-shadow{
-    box-shadow: 1px 1px 5px #CCCCCC;
-    padding: 0rem 3rem;
-    padding-bottom: 3rem;
-    height: 45vh;
-}
-.heading-div {
-    background-color: #0b5ac2;
-    width: 36.2rem;
-    margin-left: -31px;
-    padding: 4px 2.8rem;
-    margin-bottom: 2rem;
-}
-.heading-div h4 {
-    color: #fff;
-}
 /*************************/
 /*******Footer********/
 /*********************/
@@ -314,7 +256,6 @@ ul.nav li:nth-child(7) a{
 .footerwidget {
     width: 100%;
 }
-
 
 /*************************/
 /*******ABOUT US********/
@@ -2533,13 +2474,6 @@ div.wpcf7 {
     border-style: solid;
     border-width: 0 70px 70px 70px;
     border-color: transparent transparent orange transparent;
-}
-
-/*********************************/
-/*Map Class*/
-/*********************************/
-#mapClass{
-    margin-top: -85px;
 }
 
 /*********************************/
